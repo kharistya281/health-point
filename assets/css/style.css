@@ -1,0 +1,247 @@
+html {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    /* min-height: 1000vh; */
+}
+
+/* navbar */
+.navbar {
+    background-color: #60ce80;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+    margin-right: 10rem;
+}
+
+.navbar .navbar-brand span {
+    color: #154360;
+}
+
+.navbar .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.right-menu .nav-item {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* hero section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    background-color: #d7f3df;
+    align-items: center;
+}
+
+.hero .content {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+
+.hero .content .row {
+    margin: 1rem .2rem;
+    display: flex;
+}
+
+.hero .content .main {
+    padding-bottom: 3rem;
+}
+
+.hero .content .main h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.452);
+    margin-bottom: 2rem;
+}
+
+.hero .content .main h1 span {
+    color: #154360;
+}
+
+.hero .content .main p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 3.8rem;
+}
+
+.hero .content .hero-img {
+    justify-content: end;
+}
+
+.hero .content .hero-img img {
+    margin-right: auto;
+}
+
+/* produk */
+
+.produk, 
+.about {
+    padding: 5rem 4% 1.4rem;
+}
+
+.judul {
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+    margin-bottom: 2rem;
+    border-bottom: .3rem solid #154360;
+}
+
+.produk h1, 
+.about h1 {
+    font-style: italic;
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, .5);
+    /* color: #fff; */
+}
+
+.produk .card {
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    margin-top: 1.5rem;
+    display: flex;
+    /* width: 270px; */
+}
+
+.produk .card-body {
+    text-align: center;
+}
+
+.produk .card-body h5,
+.produk .card-body p {
+    font-weight: 500;
+}
+
+.produk .card-body .action a i {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.produk .card-body .action a{
+    font-size: .9rem;
+}
+
+.produk .card-body h4{
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+.produk .card-body .kat-link {
+    display: flex;
+    justify-content: start;
+    font-size: 1.2rem;
+}
+
+.produk .card-body .kat-link a{
+    text-decoration: none;
+    color: #164356;
+    font-weight: 450;
+}
+
+.nav-pills .nav-link{
+    color: #333;
+    text-align: left;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color .3s ease;
+}
+
+
+.nav-pills .nav-link:hover{
+    background-color: #e9ecef;
+    color: #000;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* detail produk */
+.header{
+    padding: 1rem 5%;
+}
+
+.detail-img img{
+    width: 30px;
+}
+
+/* about */
+
+/* .about .about-img{
+    flex: 1 1 45rem;
+} */
+
+.about .about-img img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+.about .about-content h3{
+    font-size: 2rem;
+}
+
+.about .about-content p{
+    margin-bottom: .8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6rem;
+}
+
+/* detail produk */
+.deskripsi .card-header{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.deskripsi .card-body p{
+    font-size: 1rem;
+}
+
+/* footer */
+
+footer{
+    border-top: .1rem solid #60ce80;
+    text-align: center;
+    padding: .4rem 0;
+    /* margin-top: 1rem; */
+    padding-bottom: .7rem;
+}
+
+footer .credit{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer .credit a{
+    text-decoration: none;
+    color: #154360;
+}
+
+
